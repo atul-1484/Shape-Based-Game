@@ -38,7 +38,7 @@ public class Game {
 			System.out.println("Invalid Shape!");
 			selectShape();
 		}
-		sc.close();   }
+  }
 		
 			public Two_D_Shape selectTwoDShape()
 			{
@@ -48,7 +48,6 @@ public class Game {
 			System.out.println("Press 3 For Rectangle");
 			System.out.println("Press 4 For Square");
 			int twoDShape = sc.nextInt();
-			sc.close();
 			if(twoDShape==1)
 			{
 				System.out.println("You have Choosen Circle");
@@ -104,7 +103,6 @@ public class Game {
 			System.out.println("Press 2 For Sphere");
 			System.out.println("Press 3 For Cone");
 			int threeDShape = sc.nextInt();
-			sc.close();
 			if (threeDShape == 1) {
 	            System.out.print("Enter radius of Cylinder: ");
 	            double radius = sc.nextDouble();
